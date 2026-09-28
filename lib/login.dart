@@ -19,17 +19,17 @@ class _LoginPageState extends State<LoginPage> {
     String password = _passwordController.text;
 
     if (username == 'nathania' && password == '082') {
-      ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text('Login berhasil'),
-            ),
-          );
-      // Navigator.pushReplacement(
-      //   context,
-      //   MaterialPageRoute(
-      //     builder: (context) => const HomePage()
-      //     ),
-      // );
+      // ScaffoldMessenger.of(context).showSnackBar(
+      //     const SnackBar(
+      //       content: Text('Login berhasil'),
+      //       ),
+      //     );
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(
+          builder: (context) => const HomePage()
+          ),
+      );
     } else {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(
