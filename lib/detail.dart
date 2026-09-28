@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 
 import 'data.dart';
@@ -45,6 +47,7 @@ class DestinationDetailPage extends StatelessWidget {
             Text('Jam Buka: ${destination.openingHours}'),
             Text('Tiket: ${destination.ticketInfo}'),
             Text('Daya Tarik: ${destination.attraction}'),
+            Text('Informasi Selengkapnya: ${destination.wikipediaUrl}'),
 
             const SizedBox(height: 20),
 

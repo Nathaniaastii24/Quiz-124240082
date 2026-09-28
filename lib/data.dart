@@ -33,7 +33,7 @@ List<DestinationModel> destinationList = [
     openingHours: "06.30–16.30",
     ticketInfo: "Cek kanal resmi untuk informasi tiket terbaru.",
     attraction: "Relief, stupa, arsitektur candi, dan pemandangan sekitar.",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/77/Borobudur-Nothwest-view.jpg",
+    imageUrl: "assets/images/borobudur.jpg",
     wikipediaUrl: "https://id.wikipedia.org/wiki/Borobudur",
   ),
   DestinationModel(
@@ -44,7 +44,7 @@ List<DestinationModel> destinationList = [
     openingHours: "Sepanjang hari",
     ticketInfo: "Akses pantai umumnya gratis; biaya parkir dapat berlaku.",
     attraction: "Menikmati sunset, berjalan di tepi pantai, dan berselancar.",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Kuta_Bali_beach.jpg",
+    imageUrl: "assets/images/kuta.jpg",
     wikipediaUrl: "https://id.wikipedia.org/wiki/Pantai_Kuta",
   ),
   DestinationModel(
